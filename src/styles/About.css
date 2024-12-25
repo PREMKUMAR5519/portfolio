@@ -32,6 +32,10 @@
     font-weight: 200;
     line-height: 20px;
 }
+.about_con{
+    display: flex;
+
+}
 .about_div11{
     display: grid;
     margin-top: 2rem;
@@ -54,5 +58,72 @@
 
 
 }
-.about_div12{
+
+
+@media only screen and (max-width: 480px) {
+    .about_main{
+        background-color: rgb(20, 20, 20);
+        padding: 20px 30px;
+        width: 98%;
+    
+    }
+    .about_main>h1{
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size:1rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 1px;
+        color: white;
+        text-align: center;
+    }
+    .about_div1{
+        color: white;
+    }
+    .about_con{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .about_div1>h2{
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        margin-bottom: 0.4rem;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .about_div1>p{
+        font-size: 0.5rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        width: 90%;
+        text-align: center;
+        font-weight: 200;
+        line-height: 15px;
+    }
+    .about_div11{
+        display: grid;
+        margin-top: 2rem;
+        grid-template-columns: 40% 40%;
+        gap: 1px;
+        font-weight: 300;
+        font-size: 0.6rem;
+        letter-spacing: 0.8px;
+    }
+    .right_arr{
+        color: green;
+        
+    }
+    .about_div11>div{
+        display: flex;
+        justify-content: star;
+    
+        align-items: center;
+        gap: 4px;
+    
+    
+    }
+    
+
 }
