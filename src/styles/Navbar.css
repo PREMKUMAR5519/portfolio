@@ -13,6 +13,10 @@
 .nav_main.true{
     top: 0;
 }
+.nav_main.false{
+    top: 0;
+   
+}
 .nav_main.true>.nav_con{
     
     border-top-left-radius: 0px;

@@ -9,7 +9,7 @@ function About() {
 
     <div className='about_main'  >
         <h1>About</h1>
-        <div style={{display:"flex"}}>
+        <div  style={{display:"flex",width:"100%"}}>
         <div className='about_div1'>
             <h2>Full Stack developer</h2>
             <p>I'm  a Full Stack Developer with experience in designing and developing scalable web applications. Over the past 8 months, I have worked extensively with the MERN stack (MongoDB, Express.js, ReactJS, Node.js), creating efficient and responsive user interfaces and robust backend systems. My key skills include JavaScript, RESTful APIs, database management, and deployment. I approach development with attention to detail and a focus on clean, maintainable code. I enjoy collaborating with teams, adapting to challenges, and delivering solutions that meet both technical and user needs."</p>
@@ -25,9 +25,9 @@ function About() {
 
             </div>
         </div>
-        <div>
+        <div className='about_div12'>
             <Lottie 
-        animationData={anim2}  style={{width:"300px",marginRight:"0rem",transform:"translateX(-20rem)"}} 
+        animationData={anim2}  style={{width:"300px",marginRight:"0rem"}} 
         loop={true} // Set to false if you don't want it to loop
       />
             </div>

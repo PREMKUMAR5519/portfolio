@@ -229,3 +229,38 @@
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
 }
+
+@media only screen and (max-width: 480px) {
+
+
+  .home_div1>h1>span {
+
+  	font: 500 0.9em/1 "Oswald", sans-serif;
+  	letter-spacing: 1px;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  
+
+  }
+.home_divmob{
+  display: none;
+}
+
+.home_div1>p{
+  font-size: 0.5rem;
+  width:90%;
+  font-weight: 100;
+  letter-spacing: 0.8px;
+  word-spacing: 1px;
+  line-height: 15px;
+  text-align: center;
+}
+.home_div1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+}

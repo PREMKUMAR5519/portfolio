@@ -1,7 +1,7 @@
 .about_main{
     background-color: rgb(20, 20, 20);
     padding: 20px 30px;
-    width: 100%;
+    width: 95%;
 
 }
 .about_main>h1{
@@ -53,4 +53,6 @@
     gap: 4px;
 
 
+}
+.about_div12{
 }

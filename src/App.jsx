@@ -13,7 +13,8 @@ import { Link } from 'react-scroll';
 function App() {
   return (
     <>
-    <Navbar/>
+  <div style={{width:'100%'}}>
+  <Navbar/>
     <Home/>
     <About/>
     <Skills/>
@@ -21,6 +22,7 @@ function App() {
     <Projects/>
     <OtherProject/>
     <Footer/>
+  </div>
  
      
     </>
