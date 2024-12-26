@@ -92,7 +92,7 @@
 .scroll-anim-container canvas{
  width: 98.9vw;
  background-position: center;
- background-color: aqua;
+ background-color: rgb(0, 0, 0);
 
 }
 .project_div11>h1{
