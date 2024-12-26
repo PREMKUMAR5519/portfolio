@@ -21,8 +21,6 @@ function About() {
                 <div> <span className='right_arr'><FaChevronRight /></span> Degree:Master</div>
                 <div> <span className='right_arr'><FaChevronRight /></span> Birthday:1 May 1995</div>
                 <div><span className='right_arr'><FaChevronRight /></span> Email:email@example.com</div>
-
-
             </div>
         </div>
         <div className='about_div12'>

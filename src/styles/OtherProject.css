@@ -65,3 +65,77 @@
 
     letter-spacing: 1px;
 }
+
+
+@media only screen and (max-width: 480px) {
+    .op_main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 0;
+        align-items:center ;
+    }
+    .op_main>h1{
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size:1rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 1rem;
+        color: white;
+        margin-bottom: 1rem;
+       
+        
+    }
+    .op_con{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .op_con>div{
+        width: 90%;
+        background-color: rgba(43, 43, 43, 0.748);
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid rgba(128, 128, 128, 0.349);
+        color: white;
+    
+    }
+    .op_con>div>img{
+        width: 100%;
+        border-radius: 5px;
+    
+    }
+    .op_con>div>h1{
+        font-size: 0.8rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-top: 0.5rem;
+        padding-left: 0.5rem;
+        text-transform: uppercase;
+    }
+    
+    .op_con>div>p{
+        font-size: 0.5rem;
+        font-weight: 200;
+        letter-spacing: 0.5px;
+        margin-top: 0.5rem;
+        padding-left: 0.5rem;
+    
+    }
+    .op_con>div>button{
+        margin: 10px 0;
+        background-color: transparent;
+        padding: 5px 20px;
+        border: 1px solid gray;
+        color: white;
+        margin-left: 0.5rem;
+    
+        letter-spacing: 1px;
+    }
+    
+
+}

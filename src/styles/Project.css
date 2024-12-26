@@ -103,3 +103,80 @@
     font-size: 0.8rem;
     font-weight: 300;
 }
+@media only screen and (max-width: 480px) {
+
+    .project_main>p{
+        width: 90%;
+        text-align: center;
+        font-weight: 200;
+        font-size: 0.5rem;
+    }
+    .project_main>h2{
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size:1rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 0.5rem;
+    }
+    .project_div1{
+        z-index: 2;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 95%;
+        margin-top: 4rem;
+        background-color: rgba(0, 0, 0, 0.153);
+        display: flex;
+        backdrop-filter: blur(5px);
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 25px;
+        position: relative;
+        padding-top: 5rem;
+        border: 1px solid rgba(128, 128, 128, 0.392);
+    
+    }
+    .project_div1>img{
+        width: 35%;
+    }
+    
+    .project_div11{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        padding: 10px;
+        width: 90%;
+      
+    
+    }
+    .project_div11>button,.project_div12>button{
+        background: none;
+        color: gray;
+        border: 1px solid rgba(128, 128, 128, 0.353);
+        padding: 10px 25px;
+        border-radius: 5px;
+        backdrop-filter: blur(5px);
+    
+    }
+    .project_div12{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+       
+    
+    }
+    
+  
+    .project_div11>h1{
+        font-size: 0.8rem;
+       font-weight: 300;
+       text-align: center;
+        letter-spacing: 0.8px;
+    }
+    .project_div11>p{
+        font-size: 0.5rem;
+        font-weight: 200;
+    }
+
+}

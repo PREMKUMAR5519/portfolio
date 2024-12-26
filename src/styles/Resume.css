@@ -117,3 +117,92 @@
     display: flex;
     flex-direction: row;
 }
+@media only screen and (max-width: 480px) {
+
+    .resume_main>h2{
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size:1rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 0.5rem;
+    }
+    .resume_main>p{
+        width: 90%;
+        text-align: center;
+        font-size: 0.5rem;
+        font-weight: 200;
+        letter-spacing: 0.8px;
+    }
+    .resume_div1{
+        width: 100%;
+        position: relative;
+        margin: 2rem 0;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+    }
+    .resume_div11{
+        width: 100%;
+        height: fit-content;
+     
+    
+    }
+    
+    .resume_div11_1{
+        width: 50%;
+        gap:10px;
+    
+        
+    }
+
+
+    .resume_div11_title>h2{
+        font-size: 0.6rem;
+        letter-spacing: 0.4px;
+        color: #fbc433;
+        font-weight: 200;
+    }
+    .resume_div11_title>h3{
+        font-size: 0.7rem;
+        font-weight: normal;
+    }
+    .resume_div11_1>div{
+        margin: 0 10px;
+    }
+    .resume_div13>div>div{
+        width: 15px;
+        height: 15px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .resume_abt_clg{
+        font-size: 0.5rem;
+        letter-spacing: 0.3px;
+        word-spacing: 0.3px;
+        font-weight: 200;
+        color: rgb(197, 197, 197);
+    }
+    .resume_location{
+        font-size: 0.6rem;
+        color: rgb(236, 236, 236);
+        font-weight: 300;
+    }
+    .resume_logo{
+      color: rgb(250, 179, 179);
+    }
+    .resume_skill_logo img{
+        width: 14px;
+        height: auto;
+    
+    }
+    .resume_skill_logo{
+        gap: 4px;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}
