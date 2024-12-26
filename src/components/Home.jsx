@@ -31,7 +31,7 @@ function Home() {
             <div className='home_div1'>
             <h1>
   <span >
-   Hey I'm PREMKUMAR
+   Hi I'm PREMKUMAR
   </span>
 </h1>
                 <p>A highly motivated and result-oriented web developer specializing in designing, building, and managing dynamic websites and web applications. With a strong focus on delivering user-centric solutions, I strive to create innovative and efficient digital experiences that drive the success of products and projects. My expertise lies in transforming ideas into functional, scalable, and impactful web solutions that meet business goals and exceed client expectations.</p>

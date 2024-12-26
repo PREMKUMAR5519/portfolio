@@ -17,7 +17,9 @@ function Projects() {
       location: "Pondicherry",
       content:"start",
       allign:"right",
-      image:project1
+      image:project1,
+      url:'https://web-1-8cji.vercel.app/'
+
     },
     {
       name: "Corparate Site",
@@ -27,7 +29,8 @@ function Projects() {
       location: "Chennai, Tamilnadu",
        content:"end",
        allign:"left",
-       image:project2
+       image:project3,
+       url:'https://heyraminfrastructure.com/'
 
     },
     {
@@ -38,13 +41,17 @@ function Projects() {
       location: "Chennai, Tamilnadu",
      content:"start",
       allign:"right",
-      image:project3
+      image:project2,
+      url:'https://real-estate-liart-two.vercel.app/'
 
     }
   ];
+  function hadnleDirect(url){
+    window.open(url, '_blank');
+
+  }
   return (
     <section id="project">
-
     <div className='project_main'>
     <h2>Project</h2>
     <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
@@ -53,14 +60,14 @@ function Projects() {
       <img src={e.image} alt="" />
       <div className='project_div11'>
           <h1>{e.name}</h1>
-          <p>In publishing and graphic design, Lorem <br/> ipsum is a placeholder text commonly used to demonstrate</p>
-          <button>View Project</button>
+          <p>A collection of innovative and impactful projects showcasing my skills and problem-solving approach.</p>
+          <button onClick={()=>{hadnleDirect(e.url)}}>View Project</button>
       </div>
-      <div className='project_div12'>
+      {/* <div className='project_div12'>
           <button>
               View Code
           </button>
-      </div>
+      </div> */}
   </div>
     ))}
     <div className='scroll_anim_main'>

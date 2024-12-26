@@ -13,6 +13,7 @@ function OtherProject() {
           location: "Pondicherry",
           content:"start",
           allign:"right",
+          url:'https://astounding-genie-15d20a.netlify.app/'
         },
         {
           name: "Corparate Site",
@@ -22,6 +23,7 @@ function OtherProject() {
           location: "Chennai, Tamilnadu",
            content:"end",
            allign:"left",
+           url:'https://astounding-genie-15d20a.netlify.app/'
     
         },
         {
@@ -32,6 +34,8 @@ function OtherProject() {
           location: "Chennai, Tamilnadu",
          content:"start",
           allign:"right",
+          url:'https://astounding-genie-15d20a.netlify.app/'
+
     
         }
       ];

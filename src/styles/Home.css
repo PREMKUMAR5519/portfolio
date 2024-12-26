@@ -278,3 +278,7 @@
   width: 100px;
 }
 }
+.lottie_main{
+  width: 400px;
+  transform: translateX(-100px);
+}
