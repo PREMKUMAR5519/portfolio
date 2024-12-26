@@ -1,8 +1,9 @@
 .footer_main{
-    width: 100%;
     display: flex;
     flex-direction: row;
     color: gray;
+    justify-content: space-around;
+    padding-bottom: 3rem;
 }
 .footer_div1{
     width: 40vw;
