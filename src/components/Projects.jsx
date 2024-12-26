@@ -13,7 +13,7 @@ function Projects() {
       name: "Ecommerce Site",
       years: "2019 - 2023",
       institution: "Sri Venkateshwaraa College Of Engineering And Technology",
-      description: "Harvard University is an educational institution that offers graduate, professional, and research programs in the fields of and public health.",
+      description: "Developed an AI-powered e-commerce platform using the MERN stack, featuring intelligent recommendations and seamless user experience. Currently in development and not yet hosted.",
       location: "Pondicherry",
       content:"start",
       allign:"right",
@@ -25,7 +25,7 @@ function Projects() {
       name: "Corparate Site",
       years: "2023 Sep - 2024 Mar",
       institution: "Guvi Geek Technologies",
-      description: "Columbia University is an educational institution that offers graduate, professional, and research programs in the fields of and public health.",
+      description: "Built and deployed a corporate website using the MERN stack, delivering a professional online presence with modern design and functionality, fully hosted and live.",
       location: "Chennai, Tamilnadu",
        content:"end",
        allign:"left",
@@ -37,7 +37,7 @@ function Projects() {
       name: "Real Estate Site",
       years: "2024 Apr - 2024 Dec ",
       institution: "Heyram Infrastructure",
-      description: "Columbia University is an educational institution that offers graduate, professional, and research programs in the fields of and public health.",
+      description: "Created a real estate platform using the MERN stack, enabling property listing management and user interactions. The site is developed but not yet hosted",
       location: "Chennai, Tamilnadu",
      content:"start",
       allign:"right",
@@ -54,13 +54,15 @@ function Projects() {
     <section id="project">
     <div className='project_main'>
     <h2>Project</h2>
-    <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+    <p>A collection of innovative and impactful projects showcasing my skills and problem-solving approach."
+
+Let me know if you'd like a more tailored description!</p>
     {ProjectData.map((e,i)=>(
       <div className='project_div1' >
       <img src={e.image} alt="" />
       <div className='project_div11'>
           <h1>{e.name}</h1>
-          <p>A collection of innovative and impactful projects showcasing my skills and problem-solving approach.</p>
+          <p >{e.description}</p>
           <button onClick={()=>{hadnleDirect(e.url)}}>View Project</button>
       </div>
       {/* <div className='project_div12'>

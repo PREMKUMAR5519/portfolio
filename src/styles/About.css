@@ -39,7 +39,7 @@
 .about_div11{
     display: grid;
     margin-top: 2rem;
-    grid-template-columns: 15% 15%;
+    grid-template-columns: 25% 25%;
     gap: 10px;
     font-weight: 300;
     font-size: 0.9rem;

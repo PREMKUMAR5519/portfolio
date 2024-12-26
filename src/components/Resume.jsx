@@ -22,7 +22,7 @@ function Resume() {
       degree: " B.Tech - Mechanical Engineering",
       years: "2019 - 2023",
       institution: "Sri Venkateshwaraa College Of Engineering And Technology",
-      description: "Harvard University is an educational institution that offers graduate, professional, and research programs in the fields of and public health.",
+      description: "I pursued my B.Tech at Sri Venkateshwaraa College of Engineering and Technology, where I gained a strong foundation in engineering principles. My time there honed my technical skills and fueled my passion for innovation.",
       location: "Pondicherry",
       content:"start",
       allign:"right",
@@ -33,7 +33,7 @@ function Resume() {
       degree: "Full Stack Development",
       years: "2023 Sep - 2024 Mar",
       institution: "Guvi Geek Technologies",
-      description: "Columbia University is an educational institution that offers graduate, professional, and research programs in the fields of and public health.",
+      description: "I completed a Full Stack Development course at Guvi Geek Technologies, gaining hands-on experience in building dynamic web applications and mastering modern development tools.",
       location: "Chennai, Tamilnadu",
        content:"end",
        allign:"left",
@@ -45,7 +45,7 @@ function Resume() {
       degree: "Full Stack Developer",
       years: "2024 Apr - 2024 Dec ",
       institution: "Heyram Infrastructure",
-      description: "Columbia University is an educational institution that offers graduate, professional, and research programs in the fields of and public health.",
+      description: "I worked as a Full Stack Developer at Heyram Infrastructure, where I contributed to projects like e-commerce platforms and corporate websites, handling everything from scratch to deployment.",
       location: "Chennai, Tamilnadu",
      content:"start",
       allign:"right",
@@ -57,7 +57,7 @@ function Resume() {
   return (
     <div className='resume_main'>
         <h2>Education & Experience</h2>
-        <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+        <p>A journey of academic growth and technical learning, complemented by hands-on experience in impactful projects, showcasing expertise in engineering, full-stack development, and end-to-end solutions.</p>
         <div className='resume_div1'>
         {educationData.map((e,i)=>(
 

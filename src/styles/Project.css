@@ -49,6 +49,7 @@
     bottom: 40px;
     left: 40px;
     padding: 20px;
+    width: 35%;
     background-color: rgba(43, 43, 43, 0.273);
     display: flex;
     gap: 10px;

@@ -39,6 +39,10 @@ function OtherProject() {
     
         }
       ];
+      function hadnleDirect(url){
+        window.open(url, '_blank');
+    
+      }
   return (
     <div className='op_main'>
         <h1>More Projects</h1>
@@ -46,14 +50,14 @@ function OtherProject() {
        <div>
           <img src={otherproject1} alt="" />
           <h1>Attendance Module</h1>
-          <p>Columbia University is an educat</p>
-          <button>View</button>
+          <p>Designed and implemented an attendance management module to streamline tracking and reporting. The system ensures accuracy and provides real-time attendance insights, leveraging modern web technologies.</p>
+          <button  onClick={()=>{hadnleDirect('https://attendance-seven-chi.vercel.app/')}}>View</button>
         </div>
         <div>
           <img src={Frame} alt="" />
           <h1>More Projects</h1>
-          <p>Columbia University is an educat</p>
-          <button>View</button>
+          <p>Worked on diverse projects, including dynamic web applications and custom solutions, showcasing expertise in full-stack development, user-centric design, and efficient problem-solving</p>
+          <button  onClick={()=>{hadnleDirect('https://github.com/premkumar5519')}}>View</button>
         </div>
 
        </div>
