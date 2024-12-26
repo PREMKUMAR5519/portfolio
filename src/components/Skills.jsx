@@ -32,6 +32,8 @@ function Skills() {
   { id: 5, skill: "MongoDB",percentage:"70",delay:0.9 },
   { id: 6, skill: "Express.js",percentage:"80",delay:1 },
   { id: 7, skill: "Figma",percentage:"40",delay:1.2 },
+  { id: 8, skill: "Hosting",percentage:"40",delay:1.2 },
+  { id: 9, skill: "Postman",percentage:"80",delay:1.2 },
 
     ]
   return (
