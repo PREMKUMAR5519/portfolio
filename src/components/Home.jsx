@@ -77,8 +77,8 @@ function Home() {
                </div>
             </div>
             <div className='home_divmob'>
-            <Lottie 
-        animationData={anim}  style={{width:"500px",marginRight:"4rem"}} 
+            <Lottie   className='lottie_main'
+        animationData={anim}   
         loop={true} // Set to false if you don't want it to loop
       />
             </div>

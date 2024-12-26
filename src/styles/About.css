@@ -58,12 +58,15 @@
 
 
 }
+.lottie{
+    width: 300px;
+}
 
 
 @media only screen and (max-width: 480px) {
     .about_main{
         background-color: rgb(20, 20, 20);
-        padding: 20px 30px;
+       padding: 0;
         width: 98%;
     
     }
@@ -78,6 +81,14 @@
     }
     .about_div1{
         color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_div12{
+        display: flex;
+        justify-content: center;
     }
     .about_con{
         display: flex;
@@ -92,11 +103,14 @@
         font-size: 0.8rem;
         text-align: center;
     }
+    .lottie{
+        width: 40vw;
+    }
     .about_div1>p{
         font-size: 0.5rem;
-        font-weight: 300;
-        letter-spacing: 1px;
-        word-spacing: 1px;
+        font-weight: 200;
+        letter-spacing: 0.5px;
+        word-spacing: 0.px;
         width: 90%;
         text-align: center;
         font-weight: 200;

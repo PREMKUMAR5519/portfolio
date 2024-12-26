@@ -24,8 +24,8 @@ function About() {
             </div>
         </div>
         <div className='about_div12'>
-            <Lottie 
-        animationData={anim2}  style={{width:"300px",marginRight:"0rem"}} 
+            <Lottie className='lottie'
+        animationData={anim2}   
         loop={true} // Set to false if you don't want it to loop
       />
             </div>
